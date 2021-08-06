@@ -1,6 +1,6 @@
 // console.log("hello");
 require("dotenv").config();
-const http = require("http");
+// const http = require("http");
 const PORT = process.env.PORT || 8000;
 
 const express = require("express");
@@ -22,6 +22,7 @@ ourServer.get("/", function (req, res) {
 // });
 
 const data = require("./data/data.json");
+
 ourServer.get("/smiley/:id", function (req, res) {
   if (req.params.id > data.length - 1)
     return res.send(`Please take a number between 0 and ${data.length - 1}`);
