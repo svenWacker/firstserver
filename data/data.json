@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Ruben",
+    "location": "Leverkusen",
+    "smiley": "😎"
+  },
+  {
+    "id": 1,
+    "name": "Sven",
+    "location": "Eisenberg",
+    "smiley": "😃"
+  },
+  {
+    "id": 2,
+    "name": "Maria",
+    "location": "Kerzenheim",
+    "smiley": "😻"
+  },
+  {
+    "id": 3,
+    "name": "Niklas",
+    "location": "Weisenheim",
+    "smiley": "😇"
+  }
+]
